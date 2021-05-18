@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/*buttons*/
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca';
+  font-weight: 700;
+  border-radius: 1.75rem;
+}
+
+.btn:hover {
+  border: solid hsl(0, 0%, 95%) 2px;
+  color: hsl(0, 0%, 95%);
+}
+
+.bt-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.bt-sedans:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.bt-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.bt-suvs:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.bt-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.bt-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/*media rule for desktop view*/
+@media screen and (min-width: 768px) {
+  img, h2 {
+    padding-bottom: 15%;
+  }
+
+  .container {
+    padding: 15% 10%;
+  }
+
+  .col-lg-4 {
+    padding: 5%;
+    width: 16.875rem;
+  }
+
+  .sedans {
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+  }
+
+  .luxury {
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+
+  .button {
+    padding-top: 25%;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 3% 10%;
+  }
+}
+
+/*media rule for mobile view*/
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  img, h2 {
+    padding-bottom: 10%;
+  }
+
+  .container {
+    padding: 17%;
+  }
+
+  .col-lg-4 {
+    padding: 10%;
+    width: 18.75rem;
+  }
+
+  .sedans {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+  }
+
+  .luxury {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+
+  .button {
+    padding: 5% 0 7% 0;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 5% 10%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
